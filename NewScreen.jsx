@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, FlatList, TextInput, Image } from 'react-native';
 
-const API_URL = 'https://dev.iqrakitab.net/api/books';
+const API_URL = 'https://dev.iqrakitab.net/api/books'; // API
 
 const NewScreen = () => {
   const [isRTL, setIsRTL] = useState(false);

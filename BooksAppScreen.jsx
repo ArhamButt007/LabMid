@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, ImageBackground, TouchableOpacity } from 'react-native';
 
+// Book App
 const BooksAppScreen = ({ navigation }) => {
   return (
     <ImageBackground
